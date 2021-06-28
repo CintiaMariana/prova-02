@@ -8,7 +8,7 @@ public class Questao01 {
 		
 		int normal = 0;
 			
-		for (int i=0; i<2; i++) {
+		for (int i=0; i<100; i++) {
 			System.out.println("Por favor, digite seu peso:");
 			double peso = leitura.nextDouble();
 			System.out.println("Por favor, digite sua altura:");
@@ -25,7 +25,7 @@ public class Questao01 {
 		
 		double porcentagem = (normal * 100) / 100;
 		
-		System.out.println(porcentagem + "% pessoas estão dentro da faixa considerada normal.");
+		System.out.println(porcentagem + "% pessoas estÃ£o dentro da faixa considerada normal.");
 		
 		leitura.close();
 		
